@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9dbdb;
+      }
+
+      .cls-10, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #c34343;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        filter: url(#filter-2);
+      }
+
+      .cls-4 {
+        filter: url(#filter-3);
+      }
+
+      .cls-5 {
+        filter: url(#filter-4);
+      }
+
+      .cls-6 {
+        filter: url(#filter-5);
+      }
+
+      .cls-7 {
+        filter: url(#filter-6);
+      }
+
+      .cls-8 {
+        filter: url(#filter-7);
+      }
+
+      .cls-9 {
+        filter: url(#filter-8);
+      }
+
+      .cls-10 {
+        filter: url(#filter-9);
+      }
+    </style>
+    <filter id="filter" x="605.688" y="224.031" width="243.718" height="246.657" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3b2222"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="609.312" y="605.781" width="246.75" height="243.625" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3b2222"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="632.688" y="447.281" width="307.312" height="185.531" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fb9293"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="0" y="0" width="1080" height="1080" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3b2222"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-5" x="140" y="447.406" width="307.281" height="185.5" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fb9293"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-6" x="447.031" y="140" width="185.563" height="307.188" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fb9293"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-7" x="230.438" y="609.406" width="243.687" height="246.625" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3b2222"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-8" x="447.125" y="632.781" width="185.531" height="307.219" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fb9293"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-9" x="502.062" y="502.156" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#3b2222"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Elipse_3" data-name="Elipse 3" class="cls-1" cx="540" cy="540" r="525"/>
+  <path id="Elipse_1" data-name="Elipse 1" class="cls-2" d="M789.552,408.673C713.56,450.9,605.7,470.685,605.7,470.685s10.421-107.6,60.15-186.11c53.267-84.091,122.092-66.262,156.251-31.994S870.869,363.484,789.552,408.673Z"/>
+  <path id="Elipse_1-2" data-name="Elipse 1" class="cls-3" d="M671.361,789.584c-42.25-75.965-62.048-183.789-62.048-183.789S716.95,616.2,795.485,665.91c84.123,53.244,66.294,122.05,32.018,156.2S716.571,870.872,671.361,789.584Z"/>
+  <path id="Elipse_1-3" data-name="Elipse 1" class="cls-4" d="M806.634,627.05C723.01,603.261,632.7,541.078,632.7,541.078s83.423-68.789,174.1-89.222c97.128-21.887,133.234,39.343,133.189,87.721S896.118,652.505,806.634,627.05Z"/>
+  <path id="Elipse_1-4" data-name="Elipse 1" class="cls-5" d="M408.448,290.492c42.3,75.935,62.178,183.745,62.178,183.745s-107.644-10.332-186.214-59.983c-84.16-53.184-66.381-122-32.129-156.178S363.181,209.236,408.448,290.492Z"/>
+  <path id="Elipse_1-5" data-name="Elipse 1" class="cls-6" d="M273.291,453.122c83.641,23.73,174,85.849,174,85.849s-83.375,68.847-174.037,89.345C176.138,650.271,139.989,589.067,140,540.689S183.789,427.73,273.291,453.122Z"/>
+  <path id="Elipse_1-6" data-name="Elipse 1" class="cls-7" d="M626.879,273.241c-23.73,83.617-85.859,173.95-85.859,173.95s-68.877-83.343-89.388-173.975C429.66,176.135,490.88,139.992,539.273,140S652.271,183.764,626.879,273.241Z"/>
+  <path id="Elipse_1-7" data-name="Elipse 1" class="cls-8" d="M290.277,671.392c76-42.224,183.856-62,183.856-62S463.7,717,413.968,795.5c-53.274,84.088-122.1,66.253-156.254,31.981S208.956,716.574,290.277,671.392Z"/>
+  <path id="Elipse_1-8" data-name="Elipse 1" class="cls-9" d="M452.884,806.606c23.861-83.58,86.132-173.815,86.132-173.815s68.746,83.45,89.115,174.114c21.819,97.115-39.457,133.163-87.85,133.08S427.352,896.043,452.884,806.606Z"/>
+  <circle id="Elipse_2" data-name="Elipse 2" class="cls-10" cx="539.562" cy="539.656" r="37.5"/>
+</svg>

@@ -1,0 +1,75 @@
+@font-face { 
+    font-family: magnolia; src: url('font/Magnolia\ Script.otf');
+}
+* {
+    margin: 0;
+    background-color: #FFFAFA;
+    font-family: magnolia;
+}
+nav {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    margin: 14px
+}
+a:hover {
+    color: #7A6C6C;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+#logo {
+    height: 80px;
+}
+.menu{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.container{
+    margin: 130px 240px 170px 240px;
+}
+.container h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    border-width: thin;
+    border-bottom-style: solid;
+    border-color: #3B3434;
+}
+.container h3, h4 {
+    font-size: 20px;
+}
+.title-price {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title-price .title {
+    width: 80%;
+}
+.title-price .price{
+    width: 20%;
+    align-items: right;
+    text-align: right;
+}
+.container .caption{
+    padding-bottom: 10px;
+    border-width: thin;
+    border-bottom-style: solid;
+    border-color: #3B3434;
+}
+.container .caption h4 {
+    width: 80%;
+}
