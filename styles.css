@@ -22,7 +22,7 @@ a {
 a:hover {
     color: #7A6C6C;
 }
-.logo {
+.banner {
     display: flex;
     align-items: center;
     width: 25%;
@@ -47,8 +47,13 @@ a:hover {
     border-bottom-style: solid;
     border-color: #3B3434;
 }
-.container h3, h4 {
+.container h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.container h4 {
     font-size: 20px;
+    font-weight: 100;
 }
 .title-price {
     display: flex;
@@ -56,20 +61,22 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.title-price .title {
-    width: 80%;
-}
+/*
 .title-price .price{
     width: 20%;
     align-items: right;
     text-align: right;
-}
+} */
 .container .caption{
     padding-bottom: 10px;
     border-width: thin;
     border-bottom-style: solid;
     border-color: #3B3434;
 }
+/*
 .container .caption h4 {
     width: 80%;
+} */
+.title > a {
+    margin: 0;
 }
