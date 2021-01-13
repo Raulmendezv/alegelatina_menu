@@ -162,7 +162,7 @@ footer .info{
     }
     footer {
         display: inline;
-        margin: 0px 6px 20px 6px;
+        margin: 0px 6px 0px 6px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -171,5 +171,6 @@ footer .info{
     footer .info {
         margin-top: 40px;
         text-align: center;
+        margin-bottom: 70px;
     }
 }
