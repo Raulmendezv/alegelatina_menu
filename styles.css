@@ -126,30 +126,7 @@ footer .info{
     }
 }
 
-@media (max-width: 590px) {
-    .container{
-        margin: 130px 20px 170px 20px;
-    }
-    .caption {
-        width: 100%;
-    }
-    footer h2, a{
-        font-size: 20px;
-    }
-    footer {
-        display: inline;
-        margin: 0px 6px 20px 6px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    footer .info {
-        margin-top: 40px;
-        text-align: center;
-    }
-}
-@media (min-width: 420px) {
+@media (max-width: 576px) {
     .container {
         margin: 50px 20px 50px 20px;
     }
