@@ -130,10 +130,11 @@ footer .info{
     .container{
         margin: 130px 20px 170px 20px;
     }
-    footer {
-        display: flex;
-        margin: 130px 6px 70px 6px;
-        justify-content: space-between;
+    .caption {
+        width: 100%;
+    }
+    footer h2, a{
+        font-size: 20px;
     }
     footer {
         display: inline;
