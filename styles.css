@@ -135,8 +135,20 @@ footer .info{
         margin: 130px 6px 70px 6px;
         justify-content: space-between;
     }
+    footer {
+        display: inline;
+        margin: 0px 6px 20px 6px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .info {
+        margin-top: 40px;
+        text-align: center;
+    }
 }
-@media (max-width: 420px) {
+@media (max-width: 500px) {
     .container {
         margin: 50px 20px 50px 20px;
     }
