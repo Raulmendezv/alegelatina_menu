@@ -15,9 +15,9 @@ nav {
 }
 a {
     text-decoration: none;
-    color: #000000;
-    font-size: 25px;
-    margin: 14px
+    font-size: 26px;
+    margin: 14px;
+    color: black;
 }
 a:hover {
     color: #7A6C6C;
@@ -25,19 +25,19 @@ a:hover {
 .banner {
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 17%;
 }
 #logo {
     height: 80px;
 }
-.menu{
+.menu {
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 60px;
 }
-.container{
+.container {
     margin: 130px 240px 170px 240px;
 }
 .container h2{
@@ -45,15 +45,17 @@ a:hover {
     padding-bottom: 20px;
     border-width: thin;
     border-bottom-style: solid;
-    border-color: #3B3434;
+    font-weight: 400;
 }
 .container h3 {
     font-size: 24px;
     font-weight: 400;
+    color: #3B2222;
 }
 .container h4 {
     font-size: 20px;
     font-weight: 100;
+    color: #943D1B;
 }
 .title-price {
     display: flex;
@@ -73,11 +75,111 @@ a:hover {
     padding-bottom: 10px;
     border-width: thin;
     border-bottom-style: solid;
-    border-color: #3B3434;
 }
 .container .caption h4 {
     width: 90%;
 }
 .title > a {
+    text-decoration: none;
+    font-size: 26px;
     margin: 0;
+    color: black;
+}
+.title a:hover {
+    color: #7A6C6C;
+}
+footer {
+    display: flex;
+    margin: 130px 226px 70px 226px;
+    justify-content: space-between;
+}
+footer h2, a {
+    font-weight: 100;
+    font-size: 20px;
+    margin: 14px;
+    color: black;
+}
+footer .info{
+    text-align: right;
+}
+
+/* Devices (landscape phones, 576px and up) */
+@media (max-width: 1160px) {
+    .container{
+        margin: 130px 140px 170px 140px;
+    }
+    footer {
+        display: flex;
+        margin: 130px 126px 70px 126px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 800px) {
+    .container{
+        margin: 130px 90px 170px 90px;
+    }
+    footer {
+        display: flex;
+        margin: 130px 76px 70px 76px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 590px) {
+    .container{
+        margin: 130px 20px 170px 20px;
+    }
+    footer {
+        display: flex;
+        margin: 130px 6px 70px 6px;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        margin: 50px 20px 50px 20px;
+    }
+    .banner a {
+        font-size: 25px;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    nav > div {
+        display: none;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .menu {
+        margin: 0px;
+        height: 20vh;
+    }
+    .menu h1 {
+        font-size: 58px;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+    .container h4 {
+        font-size: 18px;
+    }
+    .caption {
+        width: 100%;
+    }
+    footer h2, a{
+        font-size: 20px;
+    }
+    footer {
+        display: inline;
+        margin: 0px 6px 20px 6px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .info {
+        margin-top: 40px;
+        text-align: center;
+    }
 }
