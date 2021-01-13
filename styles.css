@@ -61,22 +61,23 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-/*
+.title-price .title {
+    width: 80%; 
+}
 .title-price .price{
     width: 20%;
     align-items: right;
     text-align: right;
-} */
+}
 .container .caption{
     padding-bottom: 10px;
     border-width: thin;
     border-bottom-style: solid;
     border-color: #3B3434;
 }
-/*
 .container .caption h4 {
-    width: 80%;
-} */
+    width: 90%;
+}
 .title > a {
     margin: 0;
 }
