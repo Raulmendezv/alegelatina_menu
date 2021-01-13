@@ -148,7 +148,7 @@ footer .info{
         text-align: center;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 420px) {
     .container {
         margin: 50px 20px 50px 20px;
     }
