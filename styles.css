@@ -29,6 +29,7 @@ a:hover {
 }
 #logo {
     height: 80px;
+    border-radius: 110px;
 }
 .menu {
     height: 50vh;
@@ -65,6 +66,10 @@ a:hover {
 }
 .title-price .title {
     width: 80%; 
+}
+
+.price h4 {
+    color: #3B2222;
 }
 .title-price .price{
     width: 20%;
